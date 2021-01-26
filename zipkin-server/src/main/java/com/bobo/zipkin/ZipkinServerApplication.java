@@ -15,8 +15,8 @@ import zipkin.server.EnableZipkinServer;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableZipkinServer
-public class ZipkinStreamServerApplication {
+public class ZipkinServerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ZipkinStreamServerApplication.class, args);
+        SpringApplication.run(ZipkinServerApplication.class, args);
     }
 }

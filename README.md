@@ -17,5 +17,5 @@ http://localhost:9010/custom/find
 然后在下面地址：
 http://localhost:9411/zipkin/
 查看结果如下：
-
+![Image text](https://raw.githubusercontent.com/zhangxiatlq/springcloud-e-book/master/images/QQ%E6%88%AA%E5%9B%BE20210126161824.jpg)
 

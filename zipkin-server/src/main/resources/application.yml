@@ -1,0 +1,24 @@
+server:
+  port: 9411
+
+spring:
+  application:
+    name: zipkin-server
+
+
+  #zipkin服务器地址
+  zipkin:
+    base-url: http://localhost:9411
+
+  #sleuth采样率，默认为0.1，值越大收集越及时，但性能影响也越大
+  sleuth:
+    sampler:
+      percentage: 1.0
+
+
+
+#指向注册中心
+eureka:
+  client:
+    service-url:
+      defaultZone: http://dpb:123456@eureka1:8761/eureka/

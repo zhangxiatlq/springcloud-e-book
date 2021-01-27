@@ -33,10 +33,19 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
+
+		<!-- rabbitMQ,需要根据配置文件yml而选择rabbit或者kafka -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
 		</dependency>
+
+		<!-- kafka,需要根据配置文件yml而选择rabbit或者kafka -->
+		<!--<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bus-kafka</artifactId>
+		</dependency>-->
+
 	</dependencies>
 	<build>
 		<plugins>
